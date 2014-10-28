@@ -9,6 +9,7 @@ cd reveal.js
 rm -Rf .git 
 curl -u "$username:$token" https://api.github.com/user/repos -d '{"name":"'$repo_name'"}' 
 ```
+   
 create the remote repo. [More information](http://blog.csdn.net/zl4546474849l/article/details/37497085) of creating remote repo purely by codes.
 
 
