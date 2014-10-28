@@ -31,6 +31,7 @@ git push origin master
 
 1. 查看，修改
 - - - - - - - - - 
-  1. 直接在浏览器输入 [github_username].github.io/[repo_name]， 或者点击repo的设置可找到此链接。
-  1. 只有gh-pages分支修改才生效
+  1. 直接在浏览器输入url  
+  格式：[github_username].github.io/[repo_name]， 或者点击repo的设置可找到此链接。
+  1. 只有gh-pages分支修改才生效  
 
