@@ -2,7 +2,7 @@
 - - - - - -
   1. 把reveal.js的[源代码](https://github.com/hakimel/reveal.js)克隆到本地  
   1. 删除.git文件，清除历史  
-  2. 新建远程库[三种用命令行的形式](http://blog.csdn.net/zl4546474849l/article/details/37497085)  
+  2. 新建远程库--[三种用命令行的形式](http://blog.csdn.net/zl4546474849l/article/details/37497085)  
 ``` bash
 git clone https://github.com/hakimel/reveal.js  
 cd reveal.js
@@ -31,6 +31,7 @@ git push origin master
 1. 查看，修改
 - - - - - - - - - 
   1. 直接在浏览器输入url  
-  格式：[github_username].github.io/[repo_name]， 或者点击repo的设置可找到此链接。
+  格式：[github_username].github.io/[repo_name]
+  或者点击repo的设置可找到此链接。
   1. 只有gh-pages分支修改才生效  
 
