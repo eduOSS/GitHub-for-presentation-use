@@ -2,15 +2,13 @@
 - - - - - -
   1. 把reveal.js的[源代码](https://github.com/hakimel/reveal.js)克隆到本地  
   1. 删除.git文件，清除历史  
-  2. 新建远程库  
+  2. 新建远程库[三种用命令行的形式](http://blog.csdn.net/zl4546474849l/article/details/37497085)  
 ``` bash
 git clone https://github.com/hakimel/reveal.js  
 cd reveal.js
 rm -Rf .git 
-curl -u "$username:$token" https://api.github.com/user/repos -d '{"name":"'$repo_name'"}' 
+curl -u "$username:$token" https://api.github.com/user/repos -d '{"name":"'$repo_name'"}'   
 ```
-   
-create the remote repo. [More information](http://blog.csdn.net/zl4546474849l/article/details/37497085) of creating remote repo purely by codes.
 
 
 
